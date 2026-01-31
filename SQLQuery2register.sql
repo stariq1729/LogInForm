@@ -1,0 +1,3 @@
+﻿ALTER TABLE signup
+ADD contact NVARCHAR(20) NULL;
+
