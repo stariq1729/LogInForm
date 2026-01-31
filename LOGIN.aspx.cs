@@ -7,6 +7,7 @@ namespace LogInForm
 {
     public partial class LOGIN : System.Web.UI.Page
     {
+        //made connection to databse 
         string cs = ConfigurationManager.ConnectionStrings["dbcs2"].ConnectionString;
 
         protected void Page_Load(object sender, EventArgs e)
